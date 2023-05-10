@@ -1,0 +1,14 @@
+syntax = "proto3";
+package grpc_msg;
+
+service GrpcMsg {
+    rpc Receive(GrpcMsgRequest) returns (GrpcMsgResponse) {}
+}
+
+message GrpcMsgRequest {
+    string body = 1;
+}
+
+message GrpcMsgResponse{
+    string result = 1;
+}

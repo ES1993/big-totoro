@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    # lib 核心
+    "big_totoro_core",
+    # bin http请求 登录 验证 请求历史消息 等
+    "big_totoro_api",
+    # bin db
+    "big_totoro_db",
+    # bin websocket 链接
+    "big_totoro_ws",
+    # bin 消息处理
+    "big_totoro_msg",
+]
